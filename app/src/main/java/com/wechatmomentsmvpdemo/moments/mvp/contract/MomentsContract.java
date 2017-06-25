@@ -1,7 +1,7 @@
 package com.wechatmomentsmvpdemo.moments.mvp.contract;
 
-import com.mylibrary.ui.BasePresenter;
-import com.mylibrary.ui.BaseView;
+import com.mylibrary.mvp.BasePresenter;
+import com.mylibrary.mvp.BaseView;
 import com.wechatmomentsmvpdemo.moments.bean.Moment;
 
 import java.util.List;

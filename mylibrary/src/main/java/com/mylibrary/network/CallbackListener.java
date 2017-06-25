@@ -5,6 +5,7 @@ package com.mylibrary.network;
  */
 
 public interface CallbackListener<T> {
-    void success(T t);
-    void failure(String code,String msg);
+    void onStart();
+    void onSuccess(T t);
+    void onFailure(String code,String msg);
 }
