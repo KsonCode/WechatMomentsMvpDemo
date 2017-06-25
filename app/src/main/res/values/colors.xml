@@ -18,5 +18,26 @@
     <color name="common_bg">#aeaeae</color>
     <!--通用触摸背景色-->
     <color name="common_touch_bg">#E3E3E3</color>
+    <color name="title_bg">#373B3E</color>
+
+    <color name="default_clickable_color">#cccccc</color>
+    <color name="name_selector_color">#cccccc</color>
+
+    <color name="color_8290AF">#8290AF</color>
+    <color name="color_232323">#232323</color>
+    <color name="color_aeaeae">#aeaeae</color>
+
+
+    <!--点赞-->
+    <color name="praise_item_default">#333333</color>
+    <color name="praise_item_selector_default">#cccccc</color>
+    <color name="praise_item">#8290AF</color>
+
+
+    <color name="im_social_dig_name_bg">#DDDDDD</color>
+    <color name="im_font_color_text_hint">#abb1b6</color>
+    <color name="im_line_color">#dadada</color>
+    <color name="bg_no_photo">#EEEEEE</color>
+
 
 </resources>

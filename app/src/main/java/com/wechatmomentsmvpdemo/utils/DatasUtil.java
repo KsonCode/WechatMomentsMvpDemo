@@ -15,17 +15,27 @@ import java.util.Random;
  * 测试数据类
  */
 
-public class DataUtils {
+public class DatasUtil {
 
-    public static final String[] CONTENTS = { "",
-            "哈哈，18123456789,ChinaAr  http://www.ChinaAr.com;一个不错的VR网站。哈哈，ChinaAr  http://www.ChinaAr.com;一个不错的VR网站。哈哈，ChinaAr  http://www.ChinaAr.com;一个不错的VR网站。哈哈，ChinaAr  http://www.ChinaAr.com;一个不错的VR网站。",
+    public static final String[] CONTENTS = {"",
+            "哈哈， 6月24日，北京市中考正式开考，据北京市教育考试院此前公布的数据，2017年北京市将有7.2万考生参加中考，报考人数比去年有所减少。",
             //"今天是个好日子，http://www.ChinaAr.com;一个不错的VR网站,18123456789,",
             //"呵呵，http://www.ChinaAr.com;一个不错的VR网站,18123456789,",
             //"只有http|https|ftp|svn://开头的网址才能识别为网址，正则表达式写的不太好，如果你又更好的正则表达式请评论告诉我，谢谢！",
-            "VR（Virtual Reality，即虚拟现实，简称VR），是由美国VPL公司创建人拉尼尔（Jaron Lanier）在20世纪80年代初提出的。其具体内涵是：综合利用计算机图形系统和各种现实及控制等接口设备，在计算机上生成的、可交互的三维环境中提供沉浸感觉的技术。其中，计算机生成的、可交互的三维环境称为虚拟环境（即Virtual Environment，简称VE）。虚拟现实技术是一种可以创建和体验虚拟世界的计算机仿真系统的技术。它利用计算机生成一种模拟环境，利用多源信息融合的交互式三维动态视景和实体行为的系统仿真使用户沉浸到该环境中。",
-            //"哈哈哈哈",
-            //"图不错",
-            "我勒个去" };
+            "一场吸引了中国小半个投资圈关注的《王者荣耀》比赛结束了。Super Godlike 战队以 2 比 1 的总比分战胜猥琐发育别浪战队，获得冠军。\n" +
+                    "\n" +
+                    "冠军队中，一位无法赶到现场的队员在义乌高铁站打完了整场比赛。他原本的计划是从上海去福州，旅途中临时下了车，只为比赛中稳定的网络信号。\n" +
+                    "\n" +
+                    "当比赛结束，这位冠军成员再也买不到当天下一趟从义乌到福州的车票了。来自盛景嘉成母基金的队长刘迪豪气地说：你就找一个最豪华的酒店住，我给你付钱！\n" +
+                    "\n" +
+                    "决赛参赛双方的十名队员，分别来自十家不同的投行、基金、创业公司、以及上市公司投资部，每队成员所在机构加起来控制的资金都数以百亿计。\n" +
+                    "\n" +
+                    "这款国民级手游成为了中国投资圈最时髦的标签：面试的时候，面试官会邀请候选人来打一局《王者荣耀》，考验他的大局观、应变能力、抗压能力；投项目的时候，投资人会要求创业团队开黑打一局《王者荣耀》，以此观察他们的团队协作能力。\n" +
+                    "\n" +
+                    "尽管是个流传的段子，却证明了这个受过良好教育、掌握大量资本的投资阶层，对一款手游的集体投入。",
+            "哈哈哈哈",
+            "图不错",
+            "真的吗"};
     /*public static final String[] PHOTOS = {
             "http://f.hiphotos.baidu.com/image/pic/item/faf2b2119313b07e97f760d908d7912396dd8c9c.jpg",
             "http://g.hiphotos.baidu.com/image/pic/item/4b90f603738da977c76ab6fab451f8198718e39e.jpg",
@@ -45,14 +55,14 @@ public class DataUtils {
             "http://pic1.nipic.com/2008-12-09/200812910493588_2.jpg",
             "http://pic2.ooopic.com/11/79/98/31bOOOPICb1_1024.jpg" };*/
     public static final String[] HEADIMG = {
-            "http://img.wzfzl.cn/uploads/allimg/140820/co140R00Q925-14.jpg",
-            "http://www.feizl.com/upload2007/2014_06/1406272351394618.png",
-            "http://v1.qzone.cc/avatar/201308/30/22/56/5220b2828a477072.jpg%21200x200.jpg",
-            "http://v1.qzone.cc/avatar/201308/22/10/36/521579394f4bb419.jpg!200x200.jpg",
-            "http://v1.qzone.cc/avatar/201408/20/17/23/53f468ff9c337550.jpg!200x200.jpg",
-            "http://cdn.duitang.com/uploads/item/201408/13/20140813122725_8h8Yu.jpeg",
-            "http://img.woyaogexing.com/touxiang/nv/20140212/9ac2117139f1ecd8%21200x200.jpg",
-            "http://p1.qqyou.com/touxiang/uploadpic/2013-3/12/2013031212295986807.jpg"};
+            "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1498414856383&di=7df9d7f18a260446e4808c935a98ad4e&imgtype=0&src=http%3A%2F%2Fwww.qqzhi.com%2Fuploadpic%2F2015-01-12%2F012800744.jpg",
+            "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=4040007948,1328682906&fm=26&gp=0.jpg",
+            "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1498414799271&di=4543fdcb088ee4fbea4e9d74bd2248b6&imgtype=0&src=http%3A%2F%2Fimg.weiyangx.com%2F2014%2F01%2F1231.jpg",
+            "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1498414856383&di=7df9d7f18a260446e4808c935a98ad4e&imgtype=0&src=http%3A%2F%2Fwww.qqzhi.com%2Fuploadpic%2F2015-01-12%2F012800744.jpg",
+            "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2482580784,3595026366&fm=26&gp=0.jpg",
+            "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1498414701423&di=ea1c995a3dd0017ae4bfb243fad96f98&imgtype=0&src=http%3A%2F%2Fimg0.pconline.com.cn%2Fpconline%2F1408%2F21%2F5311302_03_thumb.jpg",
+            "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2499486498,1578079066&fm=11&gp=0.jpg",
+            "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2231754418,153353052&fm=26&gp=0.jpg"};
 
     public static List<User> users = new ArrayList<User>();
     public static List<PhotoInfo> PHOTOS = new ArrayList<>();
@@ -68,15 +78,16 @@ public class DataUtils {
      * 评论id自增长
      */
     private static int commentId = 0;
-    public static final User curUser = new User("0", "自己", HEADIMG[0]);
+    public static final User curUser = new User("0", "我", HEADIMG[0]);
+
     static {
-        User user1 = new User("1", "张三", HEADIMG[1]);
-        User user2 = new User("2", "李四", HEADIMG[2]);
-        User user3 = new User("3", "隔壁老王", HEADIMG[3]);
-        User user4 = new User("4", "赵六", HEADIMG[4]);
-        User user5 = new User("5", "田七", HEADIMG[5]);
-        User user6 = new User("6", "Naoki", HEADIMG[6]);
-        User user7 = new User("7", "这个名字是不是很长，哈哈！因为我是用来测试换行的", HEADIMG[7]);
+        User user1 = new User("1", "马云", HEADIMG[1]);
+        User user2 = new User("2", "马化腾", HEADIMG[2]);
+        User user3 = new User("3", "kson", HEADIMG[3]);
+        User user4 = new User("4", "罗永浩", HEADIMG[4]);
+        User user5 = new User("5", "雷军", HEADIMG[5]);
+        User user6 = new User("6", "刘强东", HEADIMG[6]);
+        User user7 = new User("7", "奶茶妹妹是不是很长，哈哈！还行不是很长，换了吗，的确换了！", HEADIMG[7]);
 
         users.add(curUser);
         users.add(user1);
@@ -165,11 +176,11 @@ public class DataUtils {
             if (type == 0) {
                 item.setType("1");// 链接
                 item.setLinkImg("http://pics.sc.chinaz.com/Files/pic/icons128/2264/%E8%85%BE%E8%AE%AFQQ%E5%9B%BE%E6%A0%87%E4%B8%8B%E8%BD%BD1.png");
-                item.setLinkTitle("百度一下，你就知道");
-            } else if(type == 1){
+                item.setLinkTitle("微信，微信不能全信");
+            } else if (type == 1) {
                 item.setType("2");// 图片
                 item.setPhotos(createPhotos());
-            }else {
+            } else {
                 item.setType("3");// 视频
                 String videoUrl = "http://yiwcicledemo.s.qupai.me/v/80c81c19-7c02-4dee-baca-c97d9bbd6607.mp4";
                 String videoImgUrl = "http://yiwcicledemo.s.qupai.me/v/80c81c19-7c02-4dee-baca-c97d9bbd6607.jpg";
@@ -262,7 +273,7 @@ public class DataUtils {
     public static CommentItem createComment() {
         CommentItem item = new CommentItem();
         item.setId(String.valueOf(commentId++));
-        item.setContent("哈哈");
+        item.setContent("吼吼");
         User user = getUser();
         item.setUser(user);
         if (getRandomNum(10) % 2 == 0) {
@@ -279,9 +290,10 @@ public class DataUtils {
 
     /**
      * 创建发布评论
+     *
      * @return
      */
-    public static CommentItem createPublicComment(String content){
+    public static CommentItem createPublicComment(String content) {
         CommentItem item = new CommentItem();
         item.setId(String.valueOf(commentId++));
         item.setContent(content);
@@ -291,9 +303,10 @@ public class DataUtils {
 
     /**
      * 创建回复评论
+     *
      * @return
      */
-    public static CommentItem createReplyComment(User replyUser, String content){
+    public static CommentItem createReplyComment(User replyUser, String content) {
         CommentItem item = new CommentItem();
         item.setId(String.valueOf(commentId++));
         item.setContent(content);
@@ -303,12 +316,12 @@ public class DataUtils {
     }
 
 
-    public static Moment createVideoItem(String videoUrl, String imgUrl){
+    public static Moment createVideoItem(String videoUrl, String imgUrl) {
         Moment item = new Moment();
         item.setId(String.valueOf(circleId++));
         item.setUser(curUser);
         //item.setContent(getContent());
-        item.setCreateTime("12月24日");
+        item.setCreateTime("6月25日");
 
         //item.setFavorters(createFavortItemList());
         //item.setComments(createCommentItemList());

@@ -3,6 +3,7 @@ package com.wechatmomentsmvpdemo.moments.mvp.model;
 import com.mylibrary.mvp.BaseModel;
 import com.mylibrary.network.CallbackListener;
 import com.wechatmomentsmvpdemo.moments.bean.Moment;
+import com.wechatmomentsmvpdemo.utils.DatasUtil;
 
 import java.util.List;
 
@@ -23,10 +24,12 @@ public class MomentsModel implements BaseModel<Object,List<Moment>> {
     @Override
     public void getRemoteData(Object params, CallbackListener<List<Moment>> listener) {
 
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+
+        List<Moment> datas = DatasUtil.createMomentDatas();
+        if(datas!=null){
+           listener.onSuccess(datas);
+        }else{
+            listener.onFailure("1","失败了");
         }
 
 
