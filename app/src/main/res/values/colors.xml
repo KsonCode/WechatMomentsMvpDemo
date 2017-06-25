@@ -15,7 +15,8 @@
     <color name="transparent">#00000000</color>
 
     <!--通用背景色-->
-    <color name="common_bg">@color/white</color>
+    <color name="common_bg">#aeaeae</color>
     <!--通用触摸背景色-->
     <color name="common_touch_bg">#E3E3E3</color>
+
 </resources>

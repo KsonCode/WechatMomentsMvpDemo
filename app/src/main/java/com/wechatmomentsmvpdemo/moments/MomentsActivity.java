@@ -1,15 +1,13 @@
 package com.wechatmomentsmvpdemo.moments;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-
+import com.mylibrary.ui.BaseActivity;
 import com.wechatmomentsmvpdemo.R;
 
-public class MomentsActivity extends AppCompatActivity {
+public class MomentsActivity extends BaseActivity {
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_moments);
+    protected int getContentLayoutId() {
+        return R.layout.activity_moments;
     }
 }

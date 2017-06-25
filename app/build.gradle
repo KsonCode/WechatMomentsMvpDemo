@@ -6,7 +6,7 @@ android {
     defaultConfig {
         applicationId "com.wechatmomentsmvpdemo"
         minSdkVersion 15
-        targetSdkVersion 25
+        targetSdkVersion 22
         versionCode = "$rootProject.ext.versionCode"
         versionName = "$rootProject.ext.versionName"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -30,4 +30,6 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
     compile project(':mylibrary')
+
+
 }
