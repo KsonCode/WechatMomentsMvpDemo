@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!--通用-->
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#DE6014</color>
+    <color name="gray">#b8b8b8</color>
+    <color name="green">#5FB236</color>
+    <color name="transparent">#00000000</color>
+
+    <!--通用背景色-->
+    <color name="common_bg">@color/white</color>
+    <!--通用触摸背景色-->
+    <color name="common_touch_bg">#E3E3E3</color>
+</resources>
