@@ -11,7 +11,7 @@ import java.util.List;
 
 import butterknife.ButterKnife;
 
-public abstract class BaseActivity extends AppCompatActivity{
+public abstract class BaseActivity extends AppCompatActivity {
 
 //    public T presenter;
 
@@ -105,8 +105,8 @@ public abstract class BaseActivity extends AppCompatActivity{
     }
 
 
-    public  void  startActivity(Class<?> cls){
-        Intent intent = new Intent(this,cls);
+    public void startActivity(Class<?> cls) {
+        Intent intent = new Intent(this, cls);
         startActivity(intent);
     }
 
@@ -121,11 +121,9 @@ public abstract class BaseActivity extends AppCompatActivity{
         super.onDestroy();
     }
 
-    public void showToast(String msg){
-        Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT).show();
+    public void showToast(String msg) {
+        Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT).show();
     }
-
-
 
 
 }
